@@ -2,10 +2,7 @@
 #include <cmath>
 #include "Point.hpp"
 
-Triangle::Triangle(Point p1, Point p2, Point p3) {
-    this->p1 = p1;
-    this->p2 = p2;
-    this->p3 = p3;
+Triangle::Triangle(Point a, Point b, Point c) : p1(a), p2(b), p3(c) {
 }
 
 double Triangle::perimeter() {

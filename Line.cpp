@@ -2,9 +2,7 @@
 #include <cmath>
 #include "Point.hpp"
 
-Line::Line(Point p1, Point p2) {
-    this->p1 = p1;
-    this->p2 = p2;
+Line::Line(Point a, Point b) : p1(a), p2(b) {
 }
 
 double Line::length() {

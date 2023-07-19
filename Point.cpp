@@ -1,10 +1,7 @@
 #include "Point.hpp"
 #include <cmath>
 
-Point::Point(double x, double y)
-{
-  this->m_d_x = x;
-  this->m_d_y = y;
+Point::Point(double x, double y) m_d_x(x), m_d_y(y) {
 }
 
 double Point::distance_to_origin()
